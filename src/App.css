@@ -1,0 +1,9 @@
+.container {
+  padding: 2rem;
+  min-height: 400px;
+  max-width: 1000px;
+  background: linear-gradient(#5d5db3, #00d9ff);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #5d5db3;
+}
+

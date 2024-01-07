@@ -1,0 +1,72 @@
+.city-container {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.city-container label {
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.city-container label input {
+  width: 75%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #f1f1f1;
+  padding: 0.6rem 0.5rem;
+  transition: 0.4s ease-in-out;
+  margin-bottom: 0.5rem;
+}
+
+.city-container label input::placeholder {
+  opacity: 0.6;
+}
+
+.city-container label input:focus {
+  outline: none;
+  width: 100%;
+}
+
+.city-container form input[type="submit"] {
+  background-color: #5f36aa;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 3px;
+  color: #f1f1f1;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+
+.city-container form input[type="submit"]:hover {
+  opacity: 1;
+  padding: 1rem 1.5rem;
+}
+
+.container h2  {
+  margin-top: 2rem;
+  color: #f1f1f1;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}

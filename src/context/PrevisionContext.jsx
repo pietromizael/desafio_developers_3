@@ -10,7 +10,7 @@ export function PrevisionContextProvider({children}) {
     const [backButton, setBackButton] = useState(false)
   
     const setCityFetch = (city) => {
-      fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&lang=pt_br&units=metric&appid=095004660f2019fffa4d18aab871dabc`)
+      fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&lang=pt_br&units=metric&appid=095004660f2019fffa4d18aab871dabc`)
         .then((response) => response.json())
         .then((data) => setData(data));
     }
